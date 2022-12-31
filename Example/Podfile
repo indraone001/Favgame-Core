@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Favgame-Core_Example' do
+  pod 'Favgame-Core', :path => '../'
+
+  target 'Favgame-Core_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
