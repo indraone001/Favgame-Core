@@ -39,4 +39,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'Kingfisher', '~> 7.0'
+  s.dependency 'SwiftLint'
+  s.dependency 'RealmSwift', '~>10'
+  s.dependency 'Swinject'
+  s.dependency 'SkeletonView'
+  s.dependency 'IQKeyboardManagerSwift'
 end

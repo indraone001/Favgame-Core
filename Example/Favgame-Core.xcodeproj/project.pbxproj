@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* Favgame-Core_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favgame-Core_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		678EC7403379E51912977CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		700439C4D1FFD668CD4026B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8D80434D2B65EA3B952C1964 /* Favgame-Core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "Favgame-Core.podspec"; path = "../Favgame-Core.podspec"; sourceTree = "<group>"; };
+		678EC7403379E51912977CF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		700439C4D1FFD668CD4026B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D80434D2B65EA3B952C1964 /* Favgame-Core.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Favgame-Core.podspec"; path = "../Favgame-Core.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8FB5276A8647453703493523 /* Pods-Favgame-Core_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favgame-Core_Example.debug.xcconfig"; path = "Target Support Files/Pods-Favgame-Core_Example/Pods-Favgame-Core_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE0EA4A019A461625D8DD60D /* Pods_Favgame_Core_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favgame_Core_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				42BCEA22FEB82A1D48A14B10 /* Pods-Favgame-Core_Tests.debug.xcconfig */,
 				474DD4FACD6ADDA1FC3438BE /* Pods-Favgame-Core_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
