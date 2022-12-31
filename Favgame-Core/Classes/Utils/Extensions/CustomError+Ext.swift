@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum URLError: LocalizedError {
+public enum URLError: LocalizedError {
   case invalidResponse
   case addressUnreachable(URL)
   
@@ -20,7 +20,7 @@ enum URLError: LocalizedError {
   
 }
 
-enum DatabaseError: LocalizedError {
+public enum DatabaseError: LocalizedError {
   case invalidInstance
   case requestFailed
   

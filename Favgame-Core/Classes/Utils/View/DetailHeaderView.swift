@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-class DetailHeaderView: UICollectionReusableView {
+public class DetailHeaderView: UICollectionReusableView {
   static let identifier = "DetailHeaderView"
   
   // MARK: - Properties

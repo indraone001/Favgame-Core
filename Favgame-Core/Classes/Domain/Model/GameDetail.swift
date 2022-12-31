@@ -5,7 +5,7 @@
 //  Created by deri indrawan on 28/12/22.
 //
 
-struct GameDetail {
+public struct GameDetail {
   let id: Int
   let name: String
   let released: String
@@ -15,11 +15,11 @@ struct GameDetail {
   let parentPlatforms: [ParentPlatform]
 }
 
-struct ParentPlatform {
+public struct ParentPlatform {
   let parentPlatform: Platform
 }
 
-struct Platform {
+public struct Platform {
   let id: Int
   let slug: String
 }

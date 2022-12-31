@@ -7,7 +7,7 @@
 
 import Combine
 
-class InsertFavoriteGameUseCase {
+public class InsertFavoriteGameUseCase {
   private let gameRepository: GameRepositoryProtocol
   
   required init(gameRepository: GameRepositoryProtocol) {

@@ -9,7 +9,7 @@ import UIKit
 import SkeletonView
 import Kingfisher
 
-class GameTableViewCell: UITableViewCell {
+public class GameTableViewCell: UITableViewCell {
   static let identifier = "GameTableViewCell"
   
   // MARK: - Properties

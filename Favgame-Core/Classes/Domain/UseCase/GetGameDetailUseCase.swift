@@ -7,7 +7,7 @@
 
 import Combine
 
-class GetGameDetailUseCase {
+public class GetGameDetailUseCase {
   private let gameRepository: GameRepositoryProtocol
   
   required init(gameRepository: GameRepositoryProtocol) {

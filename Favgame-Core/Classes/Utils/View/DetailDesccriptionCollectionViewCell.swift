@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailDesccriptionCollectionViewCell: UICollectionViewCell {
+public class DetailDesccriptionCollectionViewCell: UICollectionViewCell {
   static let identifier = "DetailDescriptionCollectionViewCell"
   
   // MARK: - Properties

@@ -7,7 +7,7 @@
 
 import Combine
 
-class DeleteFavoriteGameUseCase {
+public class DeleteFavoriteGameUseCase {
   private let gameRepository: GameRepositoryProtocol
   
   required init(gameRepository: GameRepositoryProtocol) {
