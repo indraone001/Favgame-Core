@@ -46,4 +46,6 @@ TODO: Add long description of the pod here.
   s.dependency 'Swinject'
   s.dependency 'SkeletonView'
   s.dependency 'IQKeyboardManagerSwift'
+  s.dependency 'Favgame-Home'
+  
 end
