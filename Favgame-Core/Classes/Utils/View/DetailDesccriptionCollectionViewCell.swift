@@ -118,7 +118,7 @@ public class DetailDesccriptionCollectionViewCell: UICollectionViewCell {
     )
   }
   
-  func configure(with gameDetail: GameDetail) {
+  public func configure(with gameDetail: GameDetail) {
     title.text = gameDetail.name
     released.text = gameDetail.released
     rate.text = "\(gameDetail.rating)"

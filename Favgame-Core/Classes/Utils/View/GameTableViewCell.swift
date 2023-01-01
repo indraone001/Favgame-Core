@@ -129,7 +129,7 @@ public class GameTableViewCell: UITableViewCell {
     )
   }
   
-  func configure(with game: Game) {
+  public func configure(with game: Game) {
     guard let url = URL(string: game.backgroundImage) else { return }
     coverImage.kf.setImage(with: url)
     title.text = game.name

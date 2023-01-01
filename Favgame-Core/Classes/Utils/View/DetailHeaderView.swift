@@ -41,7 +41,7 @@ public class DetailHeaderView: UICollectionReusableView {
     )
   }
   
-  func configure(with gameDetail: GameDetail) {
+  public func configure(with gameDetail: GameDetail) {
     guard let url = URL(string: gameDetail.backgroundImage) else { return }
     coverImage.kf.setImage(with: url)
   }
