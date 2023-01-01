@@ -8,7 +8,7 @@
 import UIKit
 
 public class DetailDesccriptionCollectionViewCell: UICollectionViewCell {
-  static let identifier = "DetailDescriptionCollectionViewCell"
+  public let identifier = "DetailDescriptionCollectionViewCell"
   
   // MARK: - Properties
   private let title: UILabel = {

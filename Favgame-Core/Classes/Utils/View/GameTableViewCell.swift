@@ -10,7 +10,7 @@ import SkeletonView
 import Kingfisher
 
 public class GameTableViewCell: UITableViewCell {
-  static let identifier = "GameTableViewCell"
+  public let identifier = "GameTableViewCell"
   
   // MARK: - Properties
   private let coverImage: UIImageView = {

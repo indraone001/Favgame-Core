@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 
 public class DetailHeaderView: UICollectionReusableView {
-  static let identifier = "DetailHeaderView"
+  public let identifier = "DetailHeaderView"
   
   // MARK: - Properties
   private let coverImage: UIImageView = {
