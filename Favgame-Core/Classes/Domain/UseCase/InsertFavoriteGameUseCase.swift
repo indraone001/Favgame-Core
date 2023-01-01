@@ -14,7 +14,7 @@ public class InsertFavoriteGameUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute(with game: Game) -> AnyPublisher<Bool, Error> {
+  public func execute(with game: Game) -> AnyPublisher<Bool, Error> {
     return gameRepository.insertGameToFavorite(with: game)
   }
   

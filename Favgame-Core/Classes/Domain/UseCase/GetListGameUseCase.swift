@@ -14,7 +14,7 @@ public class GetListGameUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute() -> AnyPublisher<[Game], Error> {
+  public func execute() -> AnyPublisher<[Game], Error> {
     return gameRepository.getGameList()
   }
   

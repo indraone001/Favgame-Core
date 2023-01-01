@@ -6,20 +6,20 @@
 //
 
 public struct GameDetail {
-  let id: Int
-  let name: String
-  let released: String
-  let backgroundImage: String
-  let rating: Double
-  let descriptionRaw: String
-  let parentPlatforms: [ParentPlatform]
+  public let id: Int
+  public let name: String
+  public let released: String
+  public let backgroundImage: String
+  public let rating: Double
+  public let descriptionRaw: String
+  public let parentPlatforms: [ParentPlatform]
 }
 
 public struct ParentPlatform {
-  let parentPlatform: Platform
+  public let parentPlatform: Platform
 }
 
 public struct Platform {
-  let id: Int
-  let slug: String
+  public let id: Int
+  public let slug: String
 }

@@ -14,7 +14,7 @@ public class SearchGameUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute(with query: String) -> AnyPublisher<[Game], Error> {
+  public func execute(with query: String) -> AnyPublisher<[Game], Error> {
     return gameRepository.searchGame(with: query)
   }
 }

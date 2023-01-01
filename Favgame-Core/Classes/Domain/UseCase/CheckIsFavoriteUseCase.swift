@@ -14,7 +14,7 @@ public class CheckIsFavoriteUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute(withGameId id: Int) -> AnyPublisher<Bool, Error> {
+  public func execute(withGameId id: Int) -> AnyPublisher<Bool, Error> {
     return gameRepository.checkIsFavorite(withGameId: id)
   }
   

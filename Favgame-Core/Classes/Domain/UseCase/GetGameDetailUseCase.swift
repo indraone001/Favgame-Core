@@ -14,7 +14,7 @@ public class GetGameDetailUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute(withGameId id: Int) -> AnyPublisher<GameDetail, Error> {
+  public func execute(withGameId id: Int) -> AnyPublisher<GameDetail, Error> {
     return gameRepository.getGameDetail(withGameId: id)
   }
 }

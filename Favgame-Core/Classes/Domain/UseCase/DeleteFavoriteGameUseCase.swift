@@ -14,7 +14,7 @@ public class DeleteFavoriteGameUseCase {
     self.gameRepository = gameRepository
   }
   
-  func execute(withGamid id: Int) -> AnyPublisher<Bool, Error> {
+  public func execute(withGamid id: Int) -> AnyPublisher<Bool, Error> {
     return gameRepository.deleteFromFavorite(withGameId: id)
   }
   
